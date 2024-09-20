@@ -29,7 +29,7 @@ const Button = ({
         </span>
       </span>
 
-      <span className="glow-before glow-after" />
+      <span className="glow-before glow-after group-hover:before:left-4 group-hover:before:opacity-40 group-hover:after:left-3/5 group-hover:after:opacity-40" />
     </>
   );
   return href ? (
