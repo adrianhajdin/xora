@@ -527,6 +527,8 @@ export default {
 
 </details>
 
+> **IMPORTANT 👇**: The file should be named `index.jsx`, not `index.js` as demonstrated in the video. This change is necessary because we've added SVG components in the constants file.
+
 <details>
 <summary><code>constants/index.jsx</code></summary>
 
