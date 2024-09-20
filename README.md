@@ -87,7 +87,7 @@ Make sure you have the following installed on your machine:
 **Cloning the Repository**
 
 ```bash
-git clone https://github.com/JavaScript-Mastery-Pro/xora.git
+git clone https://github.com/adrianhajdin/xora.git
 cd xora
 ```
 
@@ -105,7 +105,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
