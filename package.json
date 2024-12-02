@@ -16,8 +16,8 @@
     "react": "^16.3.0 || 17",
     "react-countup": "^6.5.3",
     "react-dom": "^16.3.0 || 17",
-    "react-scroll": "^1.9.0",
-    "react-slidedown": "^2.4.7"
+    "react-scroll": "^1.9.0"
+
   },
   "overrides": {
     "react": "$react",
