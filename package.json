@@ -12,13 +12,14 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "force": "^0.0.3",
+    "patch-package": "^8.0.0",
     "prettier": "^3.3.3",
-    "react": "^18.3.1",
+    "react": "^18.2.0",
     "react-countup": "^6.5.3",
-    "react-dom": "^18.3.1",
-    "react-scroll": "^1.9.0"
+    "react-dom": "^18.2.0",
+    "react-scroll": "^1.9.0",
+    "react-slidedown": "^2.4.7"
   },
- 
   "resolutions": {
     "react": "^18.3.1"
   },
