@@ -1,0 +1,3 @@
+[build]
+command = "npm install --force && vite build"
+publish = "dist"  # O el directorio de salida de tu proyecto
