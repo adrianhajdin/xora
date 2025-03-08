@@ -2,9 +2,9 @@ export const features = [
   {
     id: "0",
     icon: "/images/feature-1.png",
-    caption: "Easy integration",
-    title: "Work smarter not harder",
-    text: "With Xora, tedious tasks are history. Automation and smart processes bring your productivity to new heights. It's like having an extra cup of coffee, but without the jitters.",
+    caption: "Innovative Technology",
+    title: "Leverage innovative technology for smarter solutions",
+    text: "We stay up-to-date with the latest technology trends and offer innovative solutions that help you stay ahead of the competition",
     button: {
       icon: "/images/magictouch.svg",
       title: "Watch the demo",
@@ -13,9 +13,9 @@ export const features = [
   {
     id: "1",
     icon: "/images/feature-2.png",
-    caption: "Secure & trustworthy",
-    title: "Sleep easy, we got your back",
-    text: "Your data security is our priority. With state-of-the-art encryption and robust privacy controls, Xora helps keeps your information secure and locked up tighter than Fort Knox.",
+    caption: "Industry Expertise",
+    title: "Rest assured, our expertise is here to support you",
+    text: "We specialize in serving specific industries, such as healthcare, finance, or manufacturing, and offer tailored solutions that meet your unique needs. ",
     button: {
       icon: "/images/docs.svg",
       title: "Read the docs",
@@ -27,7 +27,7 @@ export const details = [
   {
     id: "0",
     icon: "/images/detail-1.png",
-    title: "AI automated video editing",
+    title: "Ai genterated",
   },
   {
     id: "1",
@@ -37,7 +37,7 @@ export const details = [
   {
     id: "2",
     icon: "/images/detail-3.png",
-    title: "Ultra fast cloud-engine",
+    title: "Scalability"
   },
   {
     id: "3",
@@ -49,108 +49,107 @@ export const details = [
 export const faq = [
   {
     id: "0",
-    question: "How easy is it to setup Xora?",
+    question: "How long will it take to develop this software solution?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "The development timeline depends on the complexity and features of the web application. A simple website might take 2–3 months, while a complex web application (with user accounts, integrations, etc.) can take 6 months to a year",
   },
   {
     id: "1",
-    question: "Can I integrate Xora with other platforms?",
+    question: "What technologies will be used to develop the solution?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
-  },
+     "React.js,tailwind,HTML5, CSS3, JavaScript ", },
   {
     id: "2",
-    question: "How often do you add new content?",
+    question: "Can the solution be integrated with our existing systems?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Yes, most web solutions can be integrated with your existing systems using APIs. If your existing systems have RESTful or GraphQL APIs, we can integrate them directly.",
   },
   {
     id: "3",
-    question: "What your refund policy?",
+    question: "How will updates and maintenance be handled post-launch?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Post-launch updates and maintenance are crucial to keeping the solution up to date and secure like Regular Updates,Bug Fixes and Patches,Monitoring",
   },
   {
     id: "4",
-    question: "Do you have corporate plans?",
+    question: "What’s the process for testing and quality assurance?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "The testing and quality assurance process for web technologies generally includes Unit Testing,Integration Testing,Performance Testing",
   },
   {
     id: "5",
-    question: "What happens when I’m out of storage?",
+    question: "What are the benefits of moving our services to the cloud?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "Moving your services to the cloud offers several benefits: it reduces costs by eliminating the need for expensive hardware, makes it easier to scale resources up or down as needed, improves accessibility by allowing access from anywhere, ensures automatic updates and maintenance, and provides better data security and disaster recovery options.",
   },
   {
     id: "6",
-    question: "Can I upgrade my plan?",
+    question: "How secure is the cloud environment you're offering?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "The cloud environment we offer is highly secure with data encryption both in transit and at rest, multi-factor authentication for access control, regular security audits, and continuous monitoring for potential threats. We also implement firewalls and use industry-standard security practices to protect your data and ensure compliance with privacy regulations.",
   },
   {
     id: "7",
-    question: "How do I invite my team?",
+    question: "Can you provide a cost breakdown for cloud migration and ongoing maintenance?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "The cost for cloud migration typically includes data transfer fees, setup costs for configuring cloud resources, and any necessary development work for application compatibility. Ongoing maintenance costs include monthly hosting fees, support services, backup solutions, and any scaling requirements. Additionally, there might be costs for monitoring, security, and updates as needed",
   },
   {
     id: "8",
-    question: "Do you offer training for individuals and teams?",
+    question: "How do you ensure scalability and uptime with your cloud infrastructure?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "We ensure scalability and uptime by using auto-scaling, which adjusts resources based on demand, and load balancing to distribute traffic evenly. Our cloud infrastructure is built with redundancy across multiple data centers, ensuring high availability. We also offer SLAs guaranteeing uptime and continuously monitor systems to address any potential issues before they impact service.",
   },
   {
     id: "9",
-    question: "I’m locked out of my account what do I do?",
+    question: "Disaster Recovery & Continuity?",
     answer:
-      "Absolutely! Not only you can upgrade your plan at any time but you also get a prorated discount giving you maximum value for your subscription.",
+      "For disaster recovery and continuity, we implement data replication across multiple locations, ensuring your data is backed up and protected. We have clear recovery time objectives (RTO) and recovery point objectives (RPO) to minimize downtime, and we regularly test our recovery plans to ensure quick and efficient restoration in case of an outage or disaster.",
   },
 ];
 
 export const plans = [
   {
     id: "0",
-    title: "Core",
+    title: "Cloud",
     priceMonthly: 19,
     priceYearly: 12,
-    caption: "Best for solo creators",
+    caption: "Cloud & Infrastructure",
     features: [
-      "100MB Cloud storage",
-      "100+ prompt templates",
-      "5 projects",
-      "24/7 support",
+      "Cloud Migration Services",
+      "Cloud Analytics & AI",
+      "Cyber & Strategic Risk",
+      "Hybrid ERP & SaaS Cloud",
     ],
     icon: "/images/circle.svg",
     logo: "/images/plan-1.png",
   },
   {
     id: "1",
-    title: "Overdrive",
+    title: "SaaS",
     priceMonthly: 79,
     priceYearly: 59,
-    caption: "Most popular plan",
+    caption: "Software-as-a-Service",
     features: [
-      "All Starter features",
-      "1TB additional storage",
-      "Unlimited projects",
-      "Analytics",
+      "Backend Development",
+      "Front-end Development",
+      "CRM Development",
+      "Database/BI Production",
     ],
     icon: "/images/triangle.svg",
     logo: "/images/plan-2.png",
   },
   {
     id: "2",
-    title: "Team",
+    title: "Digitalization",
     priceMonthly: 39,
     priceYearly: 29,
-    caption: "Exclusively for teams",
+    caption: "Digital Strategy & Design",
     features: [
-      "All Overdrive features",
-      "10TB additional storage",
-      "50% off per member",
-      "Real-time collaboration",
+      "Experience Design",
+      "Digital Innovation Labs",
+      "Technology Advisory & Consulting",
+      "Business Model Design",
     ],
     icon: "/images/hexagon.svg",
     logo: "/images/plan-3.png",
@@ -164,7 +163,7 @@ export const testimonials = [
     role: "Globalnomads",
     avatarUrl: "/images/testimonials/jessica-saunders.png",
     comment:
-      "Xora's customer support is second to none! They’re like my tech superheroes, always there when I need them.",
+      "Intelion customer support is second to none! They’re like my tech superheroes, always there when I need them.",
   },
   {
     id: "1",
@@ -196,7 +195,7 @@ export const testimonials = [
     role: "Floclips",
     avatarUrl: "/images/testimonials/becky-snider.png",
     comment:
-      "Switched to Xora last month, and I'm already seeing results. Best decision for our team!",
+      "Switched to intelion last month, and I'm already seeing results. Best decision for our team!",
   },
   {
     id: "5",
